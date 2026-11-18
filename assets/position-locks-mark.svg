@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="128" height="128"
+        viewBox="0 0 128 128">
+        <defs>
+    <linearGradient id="tile" x1=".14" y1="0" x2=".92" y2="1">
+        <stop stop-color="#184c51"/>
+        <stop offset=".65" stop-color="#103437"/>
+        <stop offset="1" stop-color="#0b282b"/>
+    </linearGradient>
+    <linearGradient id="lock" x1="0" y1="0" x2=".8" y2="1">
+        <stop stop-color="#a5f3d8"/>
+        <stop offset="1" stop-color="#51d4a5"/>
+    </linearGradient></defs><g transform="translate(16 16) scale(1.0)">
+        <rect width="96" height="96" rx="23" fill="url(#tile)"/>
+        <rect x=".65" y=".65" width="94.7" height="94.7" rx="22.35"
+            fill="none" stroke="#c2f5e5" stroke-opacity=".35" stroke-width="1.3"/>
+        <path d="M34 46V36a14 14 0 0 1 28 0v10"
+            fill="none" stroke="#ddfaef" stroke-width="8.5" stroke-linecap="round"/>
+        <path fill="url(#lock)" d="M28 41.5h40a7 7 0 0 1 7 7v15
+            c0 3.7-2.3 7-5.7 8.4l-17.6 7a10 10 0 0 1-7.4 0l-17.6-7
+            A9 9 0 0 1 21 63.5v-15a7 7 0 0 1 7-7Z"/>
+        <path fill="#10383a" d="M48 51.5a5.7 5.7 0 0 1 3.1 10.5v5
+            a3.1 3.1 0 0 1-6.2 0v-5A5.7 5.7 0 0 1 48 51.5Z"/>
+    </g>
+    </svg>
