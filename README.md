@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/main_page_banner.png" width="600">
+  <img src="assets/main_page_banner.png" alt="Position Locks Support" width="900">
 </p>
 
 
