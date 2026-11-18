@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/main_page_banner.png" width="600">
+</p>
+
+
 # Position Locks support
 
 Public support for the independent Position Locks Chrome extension.
