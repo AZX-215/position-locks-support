@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Get help with the Position Locks Chrome extension for Katapult Maps or report an issue.">
+  <meta name="description" content="Get help with Single Node, All Job Nodes, and interrupted edits in Position Locks for Katapult Pro.">
   <meta name="theme-color" content="#edf6f1">
   <title>Support | Position Locks for Katapult</title>
   <link rel="canonical" href="https://azx-215.github.io/position-locks-support/support">
@@ -30,8 +30,20 @@
   <main class="shell support-page" id="main">
     <div class="support-page-intro">
       <h1>Support</h1>
-      <p class="intro">Get help with Position Locks for Katapult.</p>
+      <p class="intro">Get help with node selection, batches, and interrupted edits in Position Locks.</p>
     </div>
+
+    <section class="support-panel" aria-labelledby="help-title">
+      <div>
+        <h2 id="help-title">Using Position Locks</h2>
+        <ul class="report-details">
+          <li><strong>Single Node.</strong> Select a supported node on the map and open <strong>Node Info</strong>. The panel shows that node’s current lock status.</li>
+          <li><strong>All Job Nodes.</strong> Lock or unlock eligible poles, references, building attachments, and break points in the current job. The panel shows the eligible and locked totals.</li>
+          <li><strong>Interrupted edit.</strong> Reopen the same job on the same Katapult site and in the same Chrome profile. If <strong>Restore Node Type</strong> appears, select it and check the reported lock status and any warning before continuing.</li>
+        </ul>
+        <p>If a batch stops, completed changes stay saved. Check the summary and address any reported error before starting another batch.</p>
+      </div>
+    </section>
 
     <section class="support-panel" aria-labelledby="report-title">
       <div>
@@ -39,8 +51,9 @@
         <p>Include the following in your report.</p>
         <ul class="report-details">
           <li>Your Position Locks version</li>
+          <li>The mode you were using, <strong>Single Node</strong> or <strong>All Job Nodes</strong></li>
           <li>The action you ran and the steps to reproduce the issue</li>
-          <li>What you expected and what happened</li>
+          <li>What you expected and what happened, including the error text with job and node identifiers removed</li>
         </ul>
         <p>Use a demo job or redact private job details from screenshots and examples.</p>
       </div>
