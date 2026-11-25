@@ -23,6 +23,9 @@
   <h2>Local recovery record</h2>
   <p>Before changing a node, the extension stores a recovery record in the browser's Katapult site storage. The record includes the job and node identifiers, original type and lock state, requested lock state, coordinates, search identifiers, and a snapshot of other attributes and connection references. The record is cleared after a verified edit or recovery. An interrupted edit may leave this record on the device until a recovery succeeds or the site's storage is cleared.</p>
 
+  <h2>Toolbar preferences</h2>
+  <p>The extension stores the toolbar's on-screen coordinates and placement lock preference in the browser's Katapult site storage. These settings are separate from job data and the recovery record, are restored on reload, and are not sent to the extension developer. Reset the toolbar to its default location using the reset control; clearing that site's storage also removes the preferences.</p>
+
   <h2>Transfers and sharing</h2>
   <p>Katapult saves requested changes through its native editor and normal service under your existing account. The extension sends no job data to the extension developer or a separate extension server. It has no analytics, advertising, or telemetry and does not sell job data.</p>
 

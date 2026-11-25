@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Get help with Single Node, All Job Nodes, and interrupted edits in Position Locks for Katapult Pro.">
+  <meta name="description" content="Get help with the movable toolbar, Single Node, All Job Nodes, and interrupted edits in Position Locks for Katapult Pro.">
   <meta name="theme-color" content="#edf6f1">
   <title>Support | Position Locks for Katapult</title>
   <link rel="canonical" href="https://azx-215.github.io/position-locks-support/support">
@@ -30,8 +30,23 @@
   <main class="shell support-page" id="main">
     <div class="support-page-intro">
       <h1>Support</h1>
-      <p class="intro">Get help with node selection, batches, and interrupted edits in Position Locks.</p>
+      <p class="intro">Get help with the movable toolbar, node selection, batches, and interrupted edits in Position Locks.</p>
     </div>
+
+    <section class="support-panel toolbar-help" id="toolbar-help" aria-labelledby="toolbar-help-title">
+      <div>
+        <span class="release-badge">New in v0.3.5</span>
+        <h2 id="toolbar-help-title">Move and lock the toolbar</h2>
+        <ol class="report-details">
+          <li>Click the small padlock next to <strong>Position Locks</strong> to unlock the toolbar position.</li>
+          <li>Drag the six-dot movement grip to the desired screen location. The panel follows the toolbar. You can also focus the grip and use the arrow keys (hold Shift for finer movement).</li>
+          <li>Click the padlock again to keep the toolbar fixed. The position and lock preference are saved in the current Chrome profile and Katapult site.</li>
+          <li>To return to the default bottom dock, unlock the toolbar and click the circular reset arrow. The padlock can then be locked again.</li>
+        </ol>
+        <p><strong>Toolbar lock vs. node lock:</strong> The small padlock only controls the extension button's screen location. Use <strong>Lock Positions</strong> or <strong>Unlock Positions</strong> inside the panel to change nodes.</p>
+        <p class="toolbar-troubleshooting"><strong>Can't move it?</strong> Confirm you are using version 0.3.5 or later, the padlock is open, and the movement grip is visible. Refresh the map after updating the extension.</p>
+      </div>
+    </section>
 
     <section class="support-panel" aria-labelledby="help-title">
       <div>
@@ -51,6 +66,7 @@
         <p>Include the following in your report.</p>
         <ul class="report-details">
           <li>Your Position Locks version</li>
+          <li>For toolbar placement issues, whether the padlock was open or closed and whether the reset arrow was visible</li>
           <li>The mode you were using, <strong>Single Node</strong> or <strong>All Job Nodes</strong></li>
           <li>The action you ran and the steps to reproduce the issue</li>
           <li>What you expected and what happened, including the error text with job and node identifiers removed</li>

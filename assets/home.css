@@ -225,6 +225,10 @@ h3 { margin-bottom: .4rem; font-size: 1.08rem; letter-spacing: -.015em; line-hei
   border-radius: 1.15rem;
 }
 .support-panel h2 { margin-bottom: .5rem; }
+.toolbar-help .release-badge { display: inline-block; padding: .33rem .68rem; border-radius: 99rem; border: 1px solid #b7decc; background: #d7f1e3; color: #155c48; font-size: .82rem; font-weight: 760; margin-bottom: .85rem; }
+.toolbar-help .report-details li { margin-bottom: .45rem; }
+.toolbar-help p { max-width: 70ch; }
+.toolbar-troubleshooting { margin-top: .85rem; }
 .support-panel p { max-width: 60ch; }
 .button-outline { background: transparent; color: var(--ink); }
 .button-outline span { color: var(--accent); }
